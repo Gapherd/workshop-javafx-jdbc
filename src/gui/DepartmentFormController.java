@@ -61,7 +61,7 @@ public class DepartmentFormController implements Initializable {
             department = getFormData();
             departmentService.saveOrUpdate(department);
             notifyDataChangeListeners();
-            Utils.currrentStage(event).close();
+            Utils.currentStage(event).close();
         } catch (DbException e){
             Alerts.showAlert("Error saving object", null, e.getMessage(), Alert.AlertType.ERROR);
         } catch (ValidationException e){
@@ -93,7 +93,7 @@ public class DepartmentFormController implements Initializable {
 
     @FXML
     public void onBtCancelAction(ActionEvent event){
-        Utils.currrentStage(event).close();
+        Utils.currentStage(event).close();
     }
 
     @Override
