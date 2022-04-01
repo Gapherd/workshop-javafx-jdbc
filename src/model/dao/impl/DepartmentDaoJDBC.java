@@ -2,6 +2,7 @@ package model.dao.impl;
 
 import db.DB;
 import db.DbException;
+import db.DbIntegretyException;
 import model.dao.DepartmentDao;
 import model.entities.Department;
 
@@ -86,7 +87,7 @@ public class DepartmentDaoJDBC implements DepartmentDao {
 
             st.executeUpdate();
         } catch (SQLException e){
-            throw new DbException(e.getMessage());
+            throw new DbIntegretyException(e.getMessage());
         } finally {
             DB.closeStatement(st);
         }
