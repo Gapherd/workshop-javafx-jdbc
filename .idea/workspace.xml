@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dbca1446-4b91-4356-ac27-80107a75d87f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/DepartmentListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/DepartmentListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/SellerForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/SellerForm.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/SellerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/SellerFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/SellerListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/SellerListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/util/Constraints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/util/Constraints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/util/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +117,7 @@
       <workItem from="1649087858760" duration="1174000" />
       <workItem from="1649104139080" duration="855000" />
       <workItem from="1649172951169" duration="211000" />
-      <workItem from="1649173181034" duration="176000" />
+      <workItem from="1649173181034" duration="1068000" />
     </task>
     <task id="LOCAL-00001" summary="Main view">
       <created>1648136784389</created>
@@ -269,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648862558570</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Department ComboBox">
+      <created>1649173404477</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1649173404477</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +314,8 @@
     <MESSAGE value="SellerTableView" />
     <MESSAGE value="SellerForm" />
     <MESSAGE value="TextField and DataPicker" />
-    <option name="LAST_COMMIT_MESSAGE" value="TextField and DataPicker" />
+    <MESSAGE value="Department ComboBox" />
+    <option name="LAST_COMMIT_MESSAGE" value="Department ComboBox" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="19" key="#Notifications" timestamp="1648860571560">
@@ -327,11 +332,12 @@
     </state>
     <state x="-1045" y="136" key="#xdebugger.evaluate/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1649089104048" />
     <state x="340" y="137" key="#xdebugger.evaluate/0.0.1366.720/1366.2.1600.852@0.0.1366.720" timestamp="1649173157810" />
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1648862557493">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1649173403471">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="-1269" y="23" key="CommitChangelistDialog2/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1648743281226" />
     <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.720/-1600.2.1600.852@0.0.1366.720" timestamp="1648222331113" />
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.720/1366.2.1600.852@0.0.1366.720" timestamp="1649173403471" />
     <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.720@0.0.1366.720" timestamp="1648862557493" />
     <state width="419" height="394" key="DebuggerActiveHint" timestamp="1649173015714">
       <screen x="0" y="0" width="1366" height="720" />
@@ -343,33 +349,37 @@
     </state>
     <state x="-1082" y="157" key="FileChooserDialogImpl/0.0.1366.720/-1600.2.1600.852@0.0.1366.720" timestamp="1648136104106" />
     <state x="442" y="131" key="FileChooserDialogImpl/0.0.1366.720@0.0.1366.720" timestamp="1648860060550" />
-    <state width="1323" height="203" key="GridCell.Tab.0.bottom" timestamp="1649173162713">
-      <screen x="0" y="0" width="1366" height="720" />
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom" timestamp="1649174453942">
+      <screen x="1366" y="2" width="1600" height="852" />
     </state>
     <state width="1557" height="294" key="GridCell.Tab.0.bottom/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1649089046931" />
     <state width="1323" height="175" key="GridCell.Tab.0.bottom/0.0.1366.720/-1600.2.1600.852@0.0.1366.720" timestamp="1649071676556" />
-    <state width="1323" height="203" key="GridCell.Tab.0.bottom/0.0.1366.720/1366.2.1600.852@0.0.1366.720" timestamp="1649173162713" />
+    <state width="1323" height="235" key="GridCell.Tab.0.bottom/0.0.1366.720/1366.2.1600.852@0.0.1366.720" timestamp="1649174261741" />
+    <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1366.720/1366.2.1600.852@1366.2.1600.852" timestamp="1649174453942" />
     <state width="1323" height="175" key="GridCell.Tab.0.bottom/0.0.1366.720@0.0.1366.720" timestamp="1649013300113" />
-    <state width="1323" height="203" key="GridCell.Tab.0.center" timestamp="1649173162713">
-      <screen x="0" y="0" width="1366" height="720" />
+    <state width="1557" height="235" key="GridCell.Tab.0.center" timestamp="1649174453942">
+      <screen x="1366" y="2" width="1600" height="852" />
     </state>
     <state width="1557" height="294" key="GridCell.Tab.0.center/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1649089046931" />
     <state width="1323" height="175" key="GridCell.Tab.0.center/0.0.1366.720/-1600.2.1600.852@0.0.1366.720" timestamp="1649071676556" />
-    <state width="1323" height="203" key="GridCell.Tab.0.center/0.0.1366.720/1366.2.1600.852@0.0.1366.720" timestamp="1649173162713" />
+    <state width="1323" height="235" key="GridCell.Tab.0.center/0.0.1366.720/1366.2.1600.852@0.0.1366.720" timestamp="1649174261741" />
+    <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1366.720/1366.2.1600.852@1366.2.1600.852" timestamp="1649174453942" />
     <state width="1323" height="175" key="GridCell.Tab.0.center/0.0.1366.720@0.0.1366.720" timestamp="1649013300113" />
-    <state width="1323" height="203" key="GridCell.Tab.0.left" timestamp="1649173162713">
-      <screen x="0" y="0" width="1366" height="720" />
+    <state width="1557" height="235" key="GridCell.Tab.0.left" timestamp="1649174453942">
+      <screen x="1366" y="2" width="1600" height="852" />
     </state>
     <state width="1557" height="294" key="GridCell.Tab.0.left/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1649089046931" />
     <state width="1323" height="175" key="GridCell.Tab.0.left/0.0.1366.720/-1600.2.1600.852@0.0.1366.720" timestamp="1649071676556" />
-    <state width="1323" height="203" key="GridCell.Tab.0.left/0.0.1366.720/1366.2.1600.852@0.0.1366.720" timestamp="1649173162713" />
+    <state width="1323" height="235" key="GridCell.Tab.0.left/0.0.1366.720/1366.2.1600.852@0.0.1366.720" timestamp="1649174261741" />
+    <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1366.720/1366.2.1600.852@1366.2.1600.852" timestamp="1649174453942" />
     <state width="1323" height="175" key="GridCell.Tab.0.left/0.0.1366.720@0.0.1366.720" timestamp="1649013300113" />
-    <state width="1323" height="203" key="GridCell.Tab.0.right" timestamp="1649173162713">
-      <screen x="0" y="0" width="1366" height="720" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right" timestamp="1649174453942">
+      <screen x="1366" y="2" width="1600" height="852" />
     </state>
     <state width="1557" height="294" key="GridCell.Tab.0.right/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1649089046931" />
     <state width="1323" height="175" key="GridCell.Tab.0.right/0.0.1366.720/-1600.2.1600.852@0.0.1366.720" timestamp="1649071676556" />
-    <state width="1323" height="203" key="GridCell.Tab.0.right/0.0.1366.720/1366.2.1600.852@0.0.1366.720" timestamp="1649173162713" />
+    <state width="1323" height="235" key="GridCell.Tab.0.right/0.0.1366.720/1366.2.1600.852@0.0.1366.720" timestamp="1649174261741" />
+    <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1366.720/1366.2.1600.852@1366.2.1600.852" timestamp="1649174453942" />
     <state width="1323" height="175" key="GridCell.Tab.0.right/0.0.1366.720@0.0.1366.720" timestamp="1649013300113" />
     <state x="350" y="83" key="RollbackChangesDialog" timestamp="1648860210072">
       <screen x="0" y="0" width="1366" height="720" />
@@ -381,11 +391,12 @@
     <state x="-1409" y="2" width="1039" height="849" key="SettingsEditor/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1648139596693" />
     <state x="163" y="0" key="SettingsEditor/0.0.1366.720/-1600.2.1600.852@0.0.1366.720" timestamp="1648136108896" />
     <state x="163" y="0" key="SettingsEditor/0.0.1366.720@0.0.1366.720" timestamp="1648860062652" />
-    <state x="335" y="125" key="Vcs.Push.Dialog.v2" timestamp="1648862560949">
+    <state x="335" y="125" key="Vcs.Push.Dialog.v2" timestamp="1649173406929">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="-1208" y="150" key="Vcs.Push.Dialog.v2/0.0.1366.720/-1600.2.1600.852@-1600.2.1600.852" timestamp="1648743293234" />
     <state x="335" y="125" key="Vcs.Push.Dialog.v2/0.0.1366.720/-1600.2.1600.852@0.0.1366.720" timestamp="1648222347056" />
+    <state x="335" y="125" key="Vcs.Push.Dialog.v2/0.0.1366.720/1366.2.1600.852@0.0.1366.720" timestamp="1649173406929" />
     <state x="335" y="125" key="Vcs.Push.Dialog.v2/0.0.1366.720@0.0.1366.720" timestamp="1648862560949" />
     <state x="423" y="134" width="607" height="536" key="find.popup" timestamp="1649173349001">
       <screen x="0" y="0" width="1366" height="720" />
